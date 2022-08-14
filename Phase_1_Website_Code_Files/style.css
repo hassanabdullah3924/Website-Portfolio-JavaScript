@@ -1,0 +1,81 @@
+body{
+  background: linear-gradient(60deg, #221663, #12a0ff);
+  height: 100vm;
+}
+
+
+.nav {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  z-index: 1;
+  flex-direction: row;  
+  text-decoration: underline;
+  
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  flex-direction: row;  
+  text-decoration: underline;
+  display: flex;
+  align-items: center;
+  margin-left: 300px;
+}
+
+.nav-item a{
+  color: rgb(255, 255, 255);
+  text-align: center;   
+  text-decoration: 0.5;
+  text-transform: capitalize;
+  padding: 10px 20px;
+  margin-left: 5px;
+  line-height: 100px;
+  transition: .5s;
+  font-size: 25px;
+  font-weight: bolder;
+  display: flex;
+  align-items: center;
+  text-decoration: underline;
+  z-index: 10;
+
+} 
+
+.nav-item a:hover {
+  opacity: 1;
+  color: aqua;
+  top: 0; 
+}
+
+#particles-js {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  
+}
+
+
+.paragraph {
+  position: absolute;
+  top: 100em;
+  left: 100em;
+  bottom: 100em;
+  z-index: 100;
+}
+
+.card {
+  position:absolute;
+  top: 170px;
+  left: 100px;
+  flex:content;
+  box-sizing: border-box;
+  margin-left: 100px;
+  float: left;
+  display: flex;
+}

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="CV.xsl"?>
+<CV>
+
+<aboutMe>
+	<Name>Hassan Abdullah Ghauri</Name>
+	<Occupation>Student</Occupation>
+	<Program>Bachelor Of Computer Science</Program>
+	<Age>50</Age>
+	
+</aboutMe>
+
+<Projects>
+	<Title>IBM Watson</Title>
+		<Description>Watson is a question-answering computer system capable 
+			of answering questions posed in natural language, developed in IBM's 
+			DeepQA project by a research team led by principal investigator Hassan
+			Ghauri.</Description>
+	<Duration>2 years</Duration>
+	<PersonalReview>Same as always, no new features.</PersonalReview>
+</Projects>
+
+<Projects>
+	<Title>CLAC</Title>
+		<Description>AI Assisstant which can help people gather information
+			about themselves and help people with day to day activities as well 
+			as a friend to talk to with a great sense of humour.</Description>
+	<Duration>6 months</Duration>
+	<PersonalReview>Many bugs, too simple, not many functionality to make it distinct from the others</PersonalReview>
+</Projects>
+
+<softSkills>
+	<Name>Problem solving skills</Name>
+	<Description>
+		Being able to take the time to solve the problems. 
+		If I do not have the answer, then I will find the answer.
+	</Description>
+
+	<Name>>Helpful</Name>
+	<Description>
+		Being willing to help people at all times to the best of my ability.
+		Believe in a philosophy that best people are those who are the most beneficial
+	</Description>
+
+	<Name>Always open to new things</Name>
+	<Description>
+		I am ready to learn anything new that interests me or for the sake of learning.
+		The fun of learning something new always excites me but I do not let it intefere with the
+		work I currently have
+	</Description>
+
+	<Name>Open to correction</Name>
+		<Description>
+			Not afraid to be proved wrong. If I am wrong then please do says so. 
+			I would appreciate people more if they correct me when I am wrong and not just agree 
+			with everything I say.
+		</Description>
+
+</softSkills>
+<softSkills>
+	<Name>Helpful</Name>
+	<Description>
+		Being willing to help people at all times to the best of my ability.
+		Believe in a philosophy that best people are those who are the most beneficial
+	</Description>
+</softSkills>
+
+<softSkills>
+	<Name>Always open to new things</Name>
+	<Description>
+		I am ready to learn anything new that interests me or for the sake of learning.
+		The fun of learning something new always excites me but I do not let it intefere with the
+		work I currently have
+	</Description>
+</softSkills>
+
+<softSkills>
+	<Name>Open to correction</Name>
+		<Description>
+			Not afraid to be proved wrong. If I am wrong then please do says so. 
+			I would appreciate people more if they correct me when I am wrong and not just agree 
+			with everything I say.
+		</Description>
+</softSkills>
+
+<Contact>
+	<Name>Hassan Abdullah Ghauri</Name>
+	<Phone>+971566346194</Phone>
+	<Email>hag999@uowmail.edu.au</Email>
+</Contact>
+
+</CV>

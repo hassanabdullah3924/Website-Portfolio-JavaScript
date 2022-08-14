@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<style>
+
+  body{
+      background-color: #FAFAFA;
+      color:#555555;
+      font-family: "Helvetica";
+      font-size: 16px;
+      margin: 32px;
+    }
+
+  table,th,td {
+    border : 1px solid black;
+    border-collapse: collapse;
+    width: 50%;
+  }
+  th,td {
+    padding: 5px;
+    text-align: center;
+  }
+
+  .table{
+    display: flex;
+    justify-content: center; /* Center Horizontally */
+  }
+
+
+</style>
+<body>
+
+  <h1>Projects done by Hassan</h1>
+  <p>Click on the button to see the projects! </p>
+  <button id="button">Secret Projects</button>
+  <br><br>
+
+  <p id="user"></p>
+
+<div style="align-content: center;">
+    <table id="demo">
+      
+    </table>
+  </div>
+
+<script>
+  document.getElementById('button').addEventListener('click', loadJSON);
+
+  function loadJSON(){
+    var xhr = new XMLHttpRequest();
+    // OPEN - type, url/file, async
+    xhr.open('GET', 'Project1.json', true)
+
+    xhr.onload = function() {
+      if(this.status==200) {
+        var user = JSON.parse(this.responseText);
+        console.log(user)
+        var output2 = '';
+
+        output2 += '<tr>' +
+          '<th>Name</th>' +
+          '<th>Description</th>' +
+          '<th>Year</th>' +
+          '</tr>'
+        var output = '';
+        for(var i=0; i< user.PROJECT.length; i++) {
+
+          output +=  '<tr>' +
+                    '</tr><td>'+'<img src="'+user.PROJECT[i].IMAGE+'" width="70%"> <br> ' +
+                    user.PROJECT[i].NAME+ '</td>' +
+                  '   <td>'+user.PROJECT[i].DESCRIPTION+'</td>' +
+                  '   <td>'+user.PROJECT[i].YEAR+'</td>' +
+                  '   </tr>'
+            
+      }
+        document.getElementById('demo').innerHTML += output2;
+        document.getElementById('demo').innerHTML += output;
+        console.log(user.PROJECT.length)
+      }
+      
+    }
+    // Sends request
+    xhr.send()
+  }
+  // HTTP Status
+  // 200: OK
+  // 403: "Forbidden"
+  // 404: Not found
+
+</script>
+
+</body>
+</html>

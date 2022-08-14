@@ -1,0 +1,23 @@
+{"PROJECT":
+    [
+         {   
+    "NAME":"Portfolio Website",
+    "IMAGE":"Website.png",
+    "DESCRIPTION":"Created a website for University which got improved as time went by",
+    "YEAR":2022
+        },
+		{   
+    "NAME":"Machine Learning",
+    "IMAGE":"https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Kernel_Machine.svg/1920px-Kernel_Machine.svg.png",
+    "DESCRIPTION":"Using an algorithm to go through the data and come with a conclusion",
+    "YEAR":2023
+        },
+        {   
+    "NAME":"Advanced Learning bot",
+    "IMAGE":"https://upload.wikimedia.org/wikipedia/commons/2/2d/Enon_robot.jpg",
+    "DESCRIPTION":"Advanced Chatbot who can communicate with people to help get their needs fulfilled. Especially the elderly.",
+    "YEAR":2024
+        }            
+        
+    ]
+}
